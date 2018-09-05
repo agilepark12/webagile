@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta charset="utf-8" />
+    <title>AgilePark2018</title>
+    <style type="text/css">
+        *{
+            padding:0px;
+            margin:0px;
+        }
+
+
+
+        #menu{
+            margin:auto;
+            width:500px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+
+        .texthead{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position:absolute;
+            white-space:nowrap;
+            font-size:70px;
+            overflow:hidden;
+            left:35%;
+            color:rgba(0, 0, 0, 0.89);
+            
+        }
+
+        
+        .azul {
+            background: #000000;
+            background-image: url('../images/orig_.jpg');
+            border:solid;
+            width:100%;
+            height:800px;
+        }
+
+        .contenedor{
+            position:relative;
+            width:50%;
+        }
+
+
+        .cabeza{
+            border:solid;
+            background:#000000;
+            display:block;
+            height:auto;
+            width:100%;
+        }
+
+        .over{
+            position:absolute;
+            bottom:100%;
+            left:0;
+            right:0;
+        }
+
+        ul, ol{
+            list-style:none;
+        }
+
+        .green > li {
+            float:left;
+        }
+
+        .green li a {
+            background-color:rgba(0, 0, 0, 0.57);
+            color:#dddddd;
+            text-decoration: none;
+            display:block;
+            padding: 20px 50px;
+        }
+
+        .green li a:hover{
+            background:rgba(0, 0, 0, 0.80);
+        }
+
+        .green li ul{
+            display:none;
+            position: absolute; 
+            min-width:160px;
+        }
+        .green li:hover > ul{
+            display:block;
+        }
+
+    </style>
+
+   
+
+    
+
+</head>
+<body>
+
+    <inil>
+        
+    </inil>
+    <header>
+        <container class="contenedor">
+            <img src="../images/bannerpp.png" class="cabeza" width="1315" height="100" />
+        </container>
+        <nav class="over">
+            <h1 class="texthead">Agile.Park</h1>
+        </nav>
+    </header>
+
+    
+        <section id="colorbox" class="azul">
+            <div id="menu">
+                
+                    <ul class="green">
+                        <li><a href=""> inicio </a></li>
+                        <li><a href=""> servicios </a>
+                            <ul>
+                                <li><a href=""> parquea por hora </a></li>
+                                <li><a href=""> parquea por dia </a></li>
+                                <li><a href=""> parquea por semana </a></li>
+                                <li><a href=""> parquea por mes </a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""> nosotros </a>
+                            <ul>
+                                <li><a href=""> mision </a></li>
+                                <li><a href=""> vision </a></li>
+                            </ul>
+                        </li>
+                    </ul>               
+            </div>
+        </section>
+   
+
+
+    
+
+
+        <footer>solutionsgroup2018(®)..</footer>
+</body>
+</html>
